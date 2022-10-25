@@ -2,9 +2,6 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test
 
-Browserslist: caniuse-lite is outdated. Please run:
-  npx browserslist@latest --update-db
-  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 PASS src/nested.test.ts
 PASS src/arrays.test.ts
 PASS src/objects.test.ts
@@ -29,7 +26,7 @@ FAIL src/components/TwoDice.test.tsx
 PASS src/form-components/MultipleChoiceQuestion.test.tsx
 PASS src/bad-components/ChooseTeam.test.tsx
 PASS src/bad-components/DoubleHalf.test.tsx
-FAIL src/HtmlCss.test.tsx (5.384 s)
+FAIL src/HtmlCss.test.tsx (6.441 s)
   ● Some HTML Elements are added. › There is a header
 
     TestingLibraryElementError: Found multiple elements with the role "heading"
@@ -44,6 +41,11 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
     Ignored nodes: comments, <script />, <style />
     [36m<h3>[39m
       [0mMultiple Choice Question[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mDouble Half[0m
     [36m</h3>[39m
 
     Ignored nodes: comments, <script />, <style />
@@ -381,6 +383,29 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
             [36m</div>[39m
           [36m</div>[39m
           [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -733,6 +758,9 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       Name "Multiple Choice Question":
       [36m<h3 />[39m
 
+      Name "Double Half":
+      [36m<h3 />[39m
+
       Name "Choose Team":
       [36m<h3 />[39m
 
@@ -763,6 +791,18 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       [36m/>[39m
 
       Name "gain":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Double":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Halve":
       [36m<button[39m
         [33mclass[39m=[32m"btn btn-primary"[39m
         [33mtype[39m=[32m"button"[39m
@@ -1316,6 +1356,29 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
             [36m</div>[39m
           [36m</div>[39m
           [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -1667,6 +1730,9 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       Name "Multiple Choice Question":
       [36m<h3 />[39m
 
+      Name "Double Half":
+      [36m<h3 />[39m
+
       Name "Choose Team":
       [36m<h3 />[39m
 
@@ -1697,6 +1763,18 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       [36m/>[39m
 
       Name "gain":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Double":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Halve":
       [36m<button[39m
         [33mclass[39m=[32m"btn btn-primary"[39m
         [33mtype[39m=[32m"button"[39m
@@ -2250,6 +2328,29 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
             [36m</div>[39m
           [36m</div>[39m
           [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -2601,6 +2702,9 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       Name "Multiple Choice Question":
       [36m<h3 />[39m
 
+      Name "Double Half":
+      [36m<h3 />[39m
+
       Name "Choose Team":
       [36m<h3 />[39m
 
@@ -2631,6 +2735,18 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       [36m/>[39m
 
       Name "gain":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Double":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Halve":
       [36m<button[39m
         [33mclass[39m=[32m"btn btn-primary"[39m
         [33mtype[39m=[32m"button"[39m
@@ -3184,6 +3300,29 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
             [36m</div>[39m
           [36m</div>[39m
           [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -3535,6 +3674,9 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       Name "Multiple Choice Question":
       [36m<h3 />[39m
 
+      Name "Double Half":
+      [36m<h3 />[39m
+
       Name "Choose Team":
       [36m<h3 />[39m
 
@@ -3565,6 +3707,18 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       [36m/>[39m
 
       Name "gain":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Double":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Halve":
       [36m<button[39m
         [33mclass[39m=[32m"btn btn-primary"[39m
         [33mtype[39m=[32m"button"[39m
@@ -4118,6 +4272,29 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
             [36m</div>[39m
           [36m</div>[39m
           [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -4723,6 +4900,29 @@ FAIL src/text.test.tsx
             [36m</div>[39m
           [36m</div>[39m
           [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -5045,7 +5245,7 @@ FAIL src/components/TwoDice.test.tsx
 
       at Object.<anonymous> (src/components/TwoDice.test.tsx:40:32)
 
-FAIL src/HtmlCss.test.tsx (5.384 s)
+FAIL src/HtmlCss.test.tsx (6.441 s)
   ● Some HTML Elements are added. › There is a header
 
     TestingLibraryElementError: Found multiple elements with the role "heading"
@@ -5060,6 +5260,11 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
     Ignored nodes: comments, <script />, <style />
     [36m<h3>[39m
       [0mMultiple Choice Question[0m
+    [36m</h3>[39m
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<h3>[39m
+      [0mDouble Half[0m
     [36m</h3>[39m
 
     Ignored nodes: comments, <script />, <style />
@@ -5397,6 +5602,29 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
             [36m</div>[39m
           [36m</div>[39m
           [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -5749,6 +5977,9 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       Name "Multiple Choice Question":
       [36m<h3 />[39m
 
+      Name "Double Half":
+      [36m<h3 />[39m
+
       Name "Choose Team":
       [36m<h3 />[39m
 
@@ -5779,6 +6010,18 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       [36m/>[39m
 
       Name "gain":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Double":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Halve":
       [36m<button[39m
         [33mclass[39m=[32m"btn btn-primary"[39m
         [33mtype[39m=[32m"button"[39m
@@ -6332,6 +6575,29 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
             [36m</div>[39m
           [36m</div>[39m
           [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -6683,6 +6949,9 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       Name "Multiple Choice Question":
       [36m<h3 />[39m
 
+      Name "Double Half":
+      [36m<h3 />[39m
+
       Name "Choose Team":
       [36m<h3 />[39m
 
@@ -6713,6 +6982,18 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       [36m/>[39m
 
       Name "gain":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Double":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Halve":
       [36m<button[39m
         [33mclass[39m=[32m"btn btn-primary"[39m
         [33mtype[39m=[32m"button"[39m
@@ -7266,6 +7547,29 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
             [36m</div>[39m
           [36m</div>[39m
           [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -7617,6 +7921,9 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       Name "Multiple Choice Question":
       [36m<h3 />[39m
 
+      Name "Double Half":
+      [36m<h3 />[39m
+
       Name "Choose Team":
       [36m<h3 />[39m
 
@@ -7647,6 +7954,18 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       [36m/>[39m
 
       Name "gain":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Double":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Halve":
       [36m<button[39m
         [33mclass[39m=[32m"btn btn-primary"[39m
         [33mtype[39m=[32m"button"[39m
@@ -8200,6 +8519,29 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
             [36m</div>[39m
           [36m</div>[39m
           [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -8551,6 +8893,9 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       Name "Multiple Choice Question":
       [36m<h3 />[39m
 
+      Name "Double Half":
+      [36m<h3 />[39m
+
       Name "Choose Team":
       [36m<h3 />[39m
 
@@ -8581,6 +8926,18 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
       [36m/>[39m
 
       Name "gain":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Double":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Halve":
       [36m<button[39m
         [33mclass[39m=[32m"btn btn-primary"[39m
         [33mtype[39m=[32m"button"[39m
@@ -9134,6 +9491,29 @@ FAIL src/HtmlCss.test.tsx (5.384 s)
             [36m</div>[39m
           [36m</div>[39m
           [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -9728,6 +10108,29 @@ FAIL src/text.test.tsx
             [36m</div>[39m
           [36m</div>[39m
           [36m<hr />[39m
+          [36m<div>[39m
+            [36m<h3>[39m
+              [0mDouble Half[0m
+            [36m</h3>[39m
+            [36m<div>[39m
+              [0mThe current value is: [0m
+              [36m<span>[39m
+                [0m10[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mDouble[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mHalve[0m
+            [36m</button>[39m
+          [36m</div>[39m
           [36m<hr />[39m
           [36m<div>[39m
             [36m<h3>[39m
@@ -10002,5 +10405,5 @@ FAIL src/text.test.tsx
 Test Suites: 3 failed, 19 passed, 22 total
 Tests:       7 failed, 135 passed, 142 total
 Snapshots:   0 total
-Time:        21.787 s
+Time:        23.658 s
 Ran all test suites.
